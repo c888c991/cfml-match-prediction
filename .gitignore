@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 密钥（绝不提交）
+.env
+.env.*
+*.key
+secrets.*
+
+# 日志
+*.log
+
+# 数据库与原始数据（体积大，用 fetch_raw.py + build_db.py 自行生成）
+*.db
+*.db.bak*
+raw/
+
+# 中间产物
+prematch_board_*.json
